@@ -8,7 +8,7 @@ const objState ={
 
 const rootReducer = (state = objState,action) =>{
 
-    if(action.type=='INC_INCREMENT'){
+    if(action.type=='INC_INCREMENT') {
         return{
             ...state,
             counter : action.value
